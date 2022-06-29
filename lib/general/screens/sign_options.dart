@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter_agdy_application/general/widgets/widgets.dart';
+import 'package:flutter_agdy_application/general/widgets/BuildMyButton.dart';
+import 'package:flutter_agdy_application/general/widgets/BuildMyText.dart';
+import 'package:flutter_agdy_application/general/widgets/BuildMyTextButton.dart';
 
 
 class SignOptionsPage extends StatelessWidget {

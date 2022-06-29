@@ -18,7 +18,8 @@ class _MainPageState extends State<MainPage> {
       appBarBuilder: ((_, tabsRouter) => AppBar(
             backgroundColor: Colors.brown,
             centerTitle: true,
-            title: Image.asset("assets/imgs/a.PNG",),
+            title: PreferredSize(preferredSize: Size.fromHeight(20),
+              child: Image.asset("assets/imgs/a.PNG",height: 80),),
             toolbarHeight: 100,
             /* actions: [
               IconButton(
